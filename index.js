@@ -11,7 +11,7 @@ const normalDb = levelup('./db', {
 const db = require('then-levelup')(normalDb)
 
 const server = new Hapi.Server()
-server.connection({ port: 8888, host: 'localhost' })
+server.connection({ port: 8800, host: '0.0.0.0' })
 
 const isTeamValid = (team) => ['corsi.it'].indexOf(team) >= 0
 
