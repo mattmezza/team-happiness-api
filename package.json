@@ -1,0 +1,17 @@
+{
+  "name": "teamhealth-api",
+  "version": "1.0.0",
+  "description": "A team health API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "mkdir db"
+  },
+  "author": "Matteo Merola <mattmezza@gmail.com> (http://matteomerola.me)",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.1.1",
+    "level": "^1.6.0",
+    "then-levelup": "^1.0.2"
+  }
+}
